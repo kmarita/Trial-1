@@ -34,6 +34,11 @@ namespace Trial_1.Controllers
             ViewData["Message"] = "Information about MultiSoftware Enterprise.";
             return View();
         }
+        public IActionResult Contact()
+        {
+            ViewData["Title"] = "Contact";
+            return View();
+        }
 
     }
 }
